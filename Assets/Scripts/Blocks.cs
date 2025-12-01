@@ -56,7 +56,6 @@ public class Blocks : MonoBehaviour
         StartCoroutine(AnimatePulse());
     }
 
-    // Helper Animation
     IEnumerator AnimateScale(Vector3 start, Vector3 end, float time)
     {
         float t = 0;
